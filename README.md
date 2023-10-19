@@ -35,7 +35,29 @@ Linear algebra is inherently limited to modeling linear relationships between va
 
 Dealing with high-dimensional data using linear algebra can be computationally intensive and prone to issues like the curse of dimensionality. More advanced techniques like dimensionality reduction and feature selection are often needed to manage high-dimensional data effectively.
 
+
 3. **Complex Data Structures**
 
 Linear algebra is designed for vector and matrix operations. It cannot directly handle complex data structures like graphs, sequences, or hierarchical data. Specialized techniques and data representations are required for such scenarios.
+
+4. **Limited Model Flexibility**
+
+Linear models have limited flexibility in capturing intricate relationships between features. They may underperform when the data is noisy or when complex interactions exist. Advanced models like deep learning networks offer greater flexibility.
+
+5. **Interpretability**
+
+Linear algebra-based models often lack interpretability. They provide little insight into why a particular prediction was made. Interpretable models like decision trees and linear regression are preferred when model interpretability is crucial.
+
+6. **Automatic Feature Engineering**
+
+Linear algebra doesn't perform automatic feature engineering. In many real-world problems, feature engineering is a critical step, and manual or automated methods are needed to create relevant features for the model.
+
+7. **Outliers and Robustness**
+
+Linear models can be sensitive to outliers in the data. They may provide suboptimal results when dealing with noisy or corrupted data. Robust models, such as robust regression or outlier detection methods, are necessary in these situations.
+
+8. **Scalability**
+
+Linear algebra operations can become computationally expensive as the data size increases. Distributed computing, optimization techniques, and specialized hardware may be needed to handle large-scale machine learning tasks.
+
 
