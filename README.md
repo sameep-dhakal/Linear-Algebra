@@ -23,4 +23,19 @@ Linear algebra plays a foundational role in machine learning for the following k
 8. **Understanding Neural Networks**: Deep learning models, such as neural networks, rely heavily on linear algebra for operations like forward and backward propagation.
 
 
+# What Linear Algebra Can't Do in Machine Learning
+
+Linear algebra is a powerful mathematical framework widely used in machine learning for tasks like feature transformation, regression, and dimensionality reduction. However, there are certain limitations to what linear algebra can achieve in the field of machine learning.
+
+1. **Non-Linearity**
+
+Linear algebra is inherently limited to modeling linear relationships between variables. It cannot capture complex, non-linear patterns in data. To address this limitation, machine learning often employs non-linear techniques like neural networks, decision trees, or kernel methods.
+
+2. **High-Dimensional Data**
+
+Dealing with high-dimensional data using linear algebra can be computationally intensive and prone to issues like the curse of dimensionality. More advanced techniques like dimensionality reduction and feature selection are often needed to manage high-dimensional data effectively.
+
+3. **Complex Data Structures**
+
+Linear algebra is designed for vector and matrix operations. It cannot directly handle complex data structures like graphs, sequences, or hierarchical data. Specialized techniques and data representations are required for such scenarios.
 
